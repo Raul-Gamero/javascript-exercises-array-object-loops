@@ -87,6 +87,7 @@ person.getFullName = function() {
 } 
 
 // 6. Agrega una función getBirthYear al objeto que devuelva la edad (asumiendo que es el año 2023).
-person.getAge = function() {
-  return 2023 - this.birthYear;
+//deberria devoler la edad
+person.getBirthYear = function() {
+  return 2023 - this.birthYear; 
 }
